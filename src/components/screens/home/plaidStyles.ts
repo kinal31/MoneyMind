@@ -39,12 +39,12 @@ export const plaidStyles = StyleSheet.create({
     title:{
         marginTop: 15,
         textAlign: 'center',
-        fontSize: getFontSize(18),
+        fontSize: getFontSize(16),
         fontFamily: "Montserrat-Regular",
         lineHeight: 25.6,
         color: theme.colors.darkText,
         marginBottom: 20,
-        paddingHorizontal: 20
+        paddingHorizontal: '3%'
     },
     featureContainer: {
         marginVertical: 10,
@@ -77,7 +77,7 @@ export const plaidStyles = StyleSheet.create({
     },
     featureDescription: {
         fontFamily: "Montserrat-Regular",
-        fontSize: getFontSize(13),
+        fontSize: getFontSize(14),
         color: theme.colors.darkText,
         lineHeight: 18
     },
@@ -88,7 +88,7 @@ export const plaidStyles = StyleSheet.create({
         marginTop: 10 // Add margin to separate from content above
     },
     footerText: {
-        fontSize: getFontSize(13),
+        fontSize: getFontSize(14),
         color: theme.colors.subtitle,
         fontFamily: "Montserrat",
         lineHeight: 18,
@@ -111,6 +111,6 @@ export const plaidStyles = StyleSheet.create({
         color: theme.colors.white,
         textAlign: 'center',
         fontFamily: "Montserrat-bold",
-        fontSize: getFontSize(15),
+        fontSize: getFontSize(14),
     }
 })

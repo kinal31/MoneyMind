@@ -17,7 +17,6 @@ export const RedirectingScreen: React.FC = () => {
 
       useEffect(() => {
         setTimeout(() => {
-          console.log("Redirecting to PlaidScreen...");
           navigation.navigate("PlaidScreen"); // Navigate after 300ms
         }, 300);
       }, []);

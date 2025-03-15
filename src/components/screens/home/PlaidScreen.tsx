@@ -25,7 +25,7 @@ export const PlaidScreen: React.FC = () => {
     };
 
     const openPrivacyPolicy = () => {
-        Linking.openURL('https://plaid.com/privacy-policy/');
+        Linking.openURL('https://plaid.com/legal/');
     };
 
     // Adjust spacing based on orientation
